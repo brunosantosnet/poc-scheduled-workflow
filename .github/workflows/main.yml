@@ -2,9 +2,9 @@
 
 name: poc-scheduled-workflow
 
-on:
+'on':
   schedule:
-    - cron: "23 9 * * *"
+    - cron: "39 21 * * *"
 
 env:
   tf_version: 'latest'
