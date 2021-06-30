@@ -1,10 +1,10 @@
 ---
 
+name: poc-scheduled-workflow
+
 on:
   schedule:
-    - cron: "46 21 * * *"
-
-name: poc-scheduled-workflow
+    - cron: '48 21 * * *'
 
 env:
   tf_version: 'latest'
