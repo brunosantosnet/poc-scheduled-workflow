@@ -3,8 +3,7 @@
 name: poc-scheduled-workflow
 
 on:
-  schedule:
-    - cron: '6 12 * * *'
+  push
 
 env:
   tf_version: 'latest'
