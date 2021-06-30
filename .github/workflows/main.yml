@@ -4,7 +4,7 @@ name: poc-scheduled-workflow
 
 on:
   schedule:
-    - cron: '55 11 * * *'
+    - cron: '57 11 * * *'
 
 env:
   tf_version: 'latest'
