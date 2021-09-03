@@ -2,7 +2,7 @@
 
 name: poc-scheduled-workflow
 
-on: push
+#on: push
 
 env:
   tf_version: 'latest'
